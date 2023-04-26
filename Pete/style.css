@@ -1,0 +1,131 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body{
+	background-color: #eae2b7;
+  width: 747px;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+  color: #003049;
+  
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  shape-outside: circle();
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1{
+  color: #003049;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center; 
+  }
+
+h4{text-align: center;
+   font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 15px;
+  }
+
+nav a {
+  font-size: 18px;
+  color: #d62828;
+  line-height: 1.5;
+  ;
+}
+
+nav a:hover {
+  color: #f77f00;
+  text-align: center;
+}
+
+nav span a {margin-left: 100 px}
+
+nav a:last-of-type {
+  text-align:center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+nav span:first-child {margin-left: 0;}
+
+h2 { 
+  text-align: center;}
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-family: pseudo-classes  
+  
+}
+ 
+h3 {
+  text-align: center;
+  font-family: "Playfair Display", Times, serif;
+}
+
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  text-align: left
+}
+ol{
+ width: 747px;
+  margin: 16px auto;
+font-family: pseudo-classes;}
+
+ul{
+  width: 747px;
+  margin: 16px auto;
+  font-family: pseudo-classes;
+  }
+  
+footer {text-align: center;}
+
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+   width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+  
+}
+.center {
+  background: #003049;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+</body>
